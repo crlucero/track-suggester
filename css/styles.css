@@ -1,3 +1,7 @@
+.jumbotron {
+  text-align: center;
+}
+
 .c {
   display: none;
   width: 250px;
@@ -19,4 +23,12 @@
 }
 .cursor {
   cursor: pointer;
+}
+
+.btn {
+  margin: 20px
+}
+
+img {
+  margin-bottom: 30px
 }
