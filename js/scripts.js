@@ -8,19 +8,19 @@ $(document).ready(function() {
 
   var sum = (operator1 + operator2 + operator3);
 
-  if (sum < 5) {
+  if (sum <5) {
     $(".c").show();
     $(".css").hide();
     $(".java").hide();
   }
 
-  else if (sum < 7 && sum >5) {
+  else if (sum <=7 && sum >=5) {
     $(".c").hide();
     $(".css").show();
     $(".java").hide();
   }
 
-  else if (sum >= 7) {
+  else if (sum >7) {
     $(".c").hide();
     $(".css").hide();
     $(".java").show();
